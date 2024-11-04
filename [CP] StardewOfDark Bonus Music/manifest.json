@@ -1,0 +1,11 @@
+{
+    "Name": "[CP] StardewOfDark Bonus Music Pack",
+    "Author": "Nicholas Peck",
+    "Version": "1.2.0",
+    "Description": "Adds extra songs to the town, rainy weather, nightime, and more.",
+    "UniqueID": "stardewofdark.BonusCustomMusic",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

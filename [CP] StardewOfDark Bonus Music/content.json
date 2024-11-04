@@ -1,0 +1,217 @@
+{
+    "Format": "2.3.0",
+    "Changes": [
+	// Add Bonus Music to game
+    {
+    "Action": "EditData",
+    "Target": "Data/AudioChanges",
+    "Entries": {
+        "summertown": {
+            "Id": "summertown",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_summertown.ogg}}"],
+			 "Looped": true 
+        },
+	 "falltown": {
+            "Id": "falltown",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_falltown.ogg}}"],
+			 "Looped": true 
+        },
+	 "wintertown": {
+            "Id": "wintertown",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_wintertown.ogg}}"],
+			 "Looped": true 
+        },
+	 "springrain": {
+            "Id": "springrain",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_springrain.ogg}}"],
+			 "Looped": true 
+        },
+	 "summerrain": {
+            "Id": "summerrain",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_summerrain.ogg}}"],
+			 "Looped": true 
+        },
+	 "fallrain": {
+            "Id": "fallrain",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_fallrain.ogg}}"],
+			 "Looped": true 
+        },
+	 "greenrain": {
+            "Id": "greenrain",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_greenrain.ogg}}"],
+			 "Looped": true 
+        },
+	 "springnight": {
+            "Id": "springnight",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_springnight.ogg}}"],
+			 "Looped": false 
+        },
+	 "summernight": {
+            "Id": "summernight",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_summernight.ogg}}"],
+			 "Looped": false 
+        },
+	 "fallnight": {
+            "Id": "fallnight",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_fallnight.ogg}}"],
+			 "Looped": false 
+        },
+	 "winternight": {
+            "Id": "winternight",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_winternight.ogg}}"],
+			 "Looped": false 
+        },
+	 "IslandMusic2": {
+            "Id": "IslandMusicFaWi",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_IslandMusicFaWi.ogg}}"],
+			 "Looped": true 
+        }
+	}
+	},
+
+	//Play Tracks under criteria
+	//Rain Music
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"rain": {
+            	"Id": "rain",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_springrain.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "spring"
+	}
+        },
+
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"rain": {
+            	"Id": "rain",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_summerrain.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "summer"
+	}
+        },
+
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"rain": {
+            	"Id": "rain",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_fallrain.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "fall"
+	}
+        },
+
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"rain": {
+            	"Id": "rain",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_greenrain.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Weather": "GreenRain"
+	}
+        },
+
+	//Night Music
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"spring_night_ambient": {
+            	"Id": "spring_night_ambient",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_springnight.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "spring"
+	}
+        },
+
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"spring_night_ambient": {
+            	"Id": "spring_night_ambient",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_summernight.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "summer"
+	}
+        },
+
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"spring_night_ambient": {
+            	"Id": "spring_night_ambient",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_fallnight.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "fall"
+	}
+        },
+
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"spring_night_ambient": {
+            	"Id": "spring_night_ambient",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_winternight.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "winter"
+	}
+        },
+
+
+]
+}

@@ -1,0 +1,679 @@
+{
+    "Format": "2.3.0",
+    "Changes": [
+    {
+    "Action": "EditData",
+    "Target": "Data/AudioChanges",
+    "Entries": {
+        "MainTheme": {
+            "Id": "MainTheme",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_MainTheme.ogg}}"],
+			 "Looped": false 
+        },
+	 "CloudCountry": {
+            "Id": "CloudCountry",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_CloudCountry.ogg}}"],
+			 "Looped": true 
+        },
+	 "title_night": {
+            "Id": "title_night",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_title_night.ogg}}"],
+			 "Looped": true 
+        },
+	 "grandpas_theme": {
+            "Id": "grandpas_theme",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_grandpas_theme.ogg}}"],
+			 "Looped": true 
+        },
+	 "SettingIn": {
+            "Id": "SettlingIn",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_SettlingIn.ogg}}"],
+			 "Looped": true 
+        },
+	 "spring1": {
+            "Id": "spring1",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_spring1.ogg}}"],
+			 "Looped": false 
+        },
+	 "spring2": {
+            "Id": "spring2",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_spring2.ogg}}"],
+			 "Looped": false 
+        },
+	 "spring3": {
+            "Id": "spring3",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_spring3.ogg}}"],
+			 "Looped": false 
+        },
+	 "summer1": {
+            "Id": "summer1",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_summer1.ogg}}"],
+			 "Looped": false 
+        },
+	 "summer2": {
+            "Id": "summer2",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_summer2.ogg}}"],
+			 "Looped": false 
+        },
+	 "summer3": {
+            "Id": "summer3",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_summer3.ogg}}"],
+			 "Looped": false 
+        },
+	 "fall1": {
+            "Id": "fall1",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_fall1.ogg}}"],
+			 "Looped": false 
+        },
+	 "fall2": {
+            "Id": "fall2",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_fall2.ogg}}"],
+			 "Looped": false 
+        },
+	 "fall3": {
+            "Id": "fall3",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_fall3.ogg}}"],
+			 "Looped": false 
+        },
+	 "winter1": {
+            "Id": "winter1",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_winter1.ogg}}"],
+			 "Looped": false 
+        },
+	 "winter2": {
+            "Id": "winter2",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_winter2.ogg}}"],
+			 "Looped": false 
+        },
+	 "winter3": {
+            "Id": "winter3",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_winter3.ogg}}"],
+			 "Looped": false 
+        },
+	 "event1": {
+            "Id": "event1",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_event1.ogg}}"],
+			 "Looped": true 
+        },
+	 "event2": {
+            "Id": "event2",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_event2.ogg}}"],
+			 "Looped": true 
+        },
+	 "distantBanjo": {
+            "Id": "distantBanjo",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_distantBanjo.ogg}}"],
+			 "Looped": true 
+        },
+	 "WizardSong": {
+            "Id": "WizardSong",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_WizardSong.ogg}}"],
+			 "Looped": true 
+        },
+	 "MarlonsTheme": {
+            "Id": "MarlonsTheme",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_MarlonsTheme.ogg}}"],
+			 "Looped": true 
+        },
+	 "Saloon1": {
+            "Id": "Saloon1",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_Saloon1.ogg}}"],
+			 "Looped": true 
+        },
+	 "moonlightJellies": {
+            "Id": "moonlightJellies",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_moonlightJellies.ogg}}"],
+			 "Looped": true 
+        },
+	 "libraryTheme": {
+            "Id": "libraryTheme",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_libraryTheme.ogg}}"],
+			 "Looped": true 
+        },
+	 "fallFest": {
+            "Id": "fallFest",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_fallFest.ogg}}"],
+			 "Looped": true 
+        },
+	 "tickTock": {
+            "Id": "tickTock",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_tickTock.ogg}}"],
+			 "Looped": false 
+        },
+	 "spirits_eve": {
+            "Id": "spirits_eve",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_spirits_eve.ogg}}"],
+			 "Looped": true 
+        },
+	 "christmasTheme": {
+            "Id": "christmasTheme",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_christmasTheme.ogg}}"],
+			 "Looped": true 
+        },
+	 "junimoStarSong": {
+            "Id": "junimoStarSong",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_junimoStarSong.ogg}}"],
+			 "Looped": true 
+        },
+	 "marnieShop": {
+            "Id": "marnieShop",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_marnieShop.ogg}}"],
+			 "Looped": true 
+        },
+	 "wavy": {
+            "Id": "wavy",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_wavy.ogg}}"],
+			 "Looped": true 
+        },
+	 "playful": {
+            "Id": "playful",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_playful.ogg}}"],
+			 "Looped": true 
+        },
+	 "sweet": {
+            "Id": "sweet",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_sweet.ogg}}"],
+			 "Looped": true 
+        },
+	 "50s": {
+            "Id": "50s",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_50s.ogg}}"],
+			 "Looped": true 
+        },
+	 "elliottPiano": {
+            "Id": "elliottPiano",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_elliottPiano.ogg}}"],
+			 "Looped": true 
+        },
+	 "breezy": {
+            "Id": "breezy",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_breezy.ogg}}"],
+			 "Looped": true 
+        },
+	 "spaceMusic": {
+            "Id": "spaceMusic",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_spaceMusic.ogg}}"],
+			 "Looped": true 
+        },
+	 "desolate": {
+            "Id": "desolate",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_desolate.ogg}}"],
+			 "Looped": true 
+        },
+	 "ragtime": {
+            "Id": "ragtime",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_ragtime.ogg}}"],
+			 "Looped": true 
+        },
+	 "echos": {
+            "Id": "echos",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_echos.ogg}}"],
+			 "Looped": true 
+        },
+	 "kindadumbautumn": {
+            "Id": "kindadumbautumn",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_kindadumbautumn.ogg}}"],
+			 "Looped": true 
+        },
+	 "sampractice": {
+            "Id": "sampractice",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_sampractice.ogg}}"],
+			 "Looped": false 
+        },
+	 "shimmeringbastion": {
+            "Id": "shimmeringbastion",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_shimmeringbastion.ogg}}"],
+			 "Looped": false 
+        },
+	 "poppy": {
+            "Id": "poppy",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_poppy.ogg}}"],
+			 "Looped": false 
+        },
+	 "honkytonky": {
+            "Id": "honkytonky",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_honkytonky.ogg}}"],
+			 "Looped": false 
+        },
+	 "heavy": {
+            "Id": "heavy",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_heavy.ogg}}"],
+			 "Looped": false 
+        },
+	 "sadpiano": {
+            "Id": "sadpiano",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_sadpiano.ogg}}"],
+			 "Looped": true 
+        },
+	 "musicboxsong": {
+            "Id": "musicboxsong",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_musicboxsong.ogg}}"],
+			 "Looped": true 
+        },
+	 "jaunty": {
+            "Id": "jaunty",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_jaunty.ogg}}"],
+			 "Looped": true 
+        },
+	 "gusviolin": {
+            "Id": "gusviolin",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_gusviolin.ogg}}"],
+			 "Looped": true 
+        },
+	 "wedding": {
+            "Id": "wedding",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_wedding.ogg}}"],
+			 "Looped": true 
+        },
+	 "Crystal Bells": {
+            "Id": "Crystal Bells",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_CrystalBells.ogg}}"],
+			 "Looped": false 
+        },
+	 "Cavern": {
+            "Id": "Cavern",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_Cavern.ogg}}"],
+			 "Looped": false 
+        },
+	 "Secret Gnomes": {
+            "Id": "Secret Gnomes",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_SecretGnomes.ogg}}"],
+			 "Looped": false 
+        },
+	 "Icicles": {
+            "Id": "Icicles",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_Icicles.ogg}}"],
+			 "Looped": false 
+        },
+	 "XOR": {
+            "Id": "XOR",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_XOR.ogg}}"],
+			 "Looped": false 
+        },
+	 "Cloth": {
+            "Id": "Cloth",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_Cloth.ogg}}"],
+			 "Looped": false 
+        },
+	 "Near The Planet Core": {
+            "Id": "Near The Planet Core",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_PlanetCore.ogg}}"],
+			 "Looped": false 
+        },
+	 "Of Dwarves": {
+            "Id": "Of Dwarves",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_OfDwarves.ogg}}"],
+			 "Looped": false 
+        },
+	 "Overcast": {
+            "Id": "Overcast",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_Overcast.ogg}}"],
+			 "Looped": false 
+        },
+	 "tribal": {
+            "Id": "tribal",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_tribal.ogg}}"],
+			 "Looped": false 
+        },
+	 "EarthMine": {
+            "Id": "EarthMine",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/{{Random:M_CrystalBells, M_Cavern, M_SecretGnomes}}.ogg}}"],
+			 "Looped": false 
+        },
+	 "FrostMine": {
+            "Id": "FrostMine",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/{{Random:M_Icicles, M_XOR, M_Cloth}}.ogg}}"],
+			 "Looped": false 
+        },
+	 "LavaMine": {
+            "Id": "LavaMine",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/{{Random:M_PlanetCore, M_OfDwarves, M_Overcast, M_tribal}}.ogg}}"],
+			 "Looped": false 
+        },
+	 "woodsTheme": {
+            "Id": "woodsTheme",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_woodsTheme.ogg}}"],
+			 "Looped": true 
+        },
+	 "Cowboy_OVERWORLD": {
+            "Id": "Cowboy_OVERWORLD",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_Cowboy_OVERWORLD.ogg}}"],
+			 "Looped": true 
+        },
+	 "cowboy_outlawsong": {
+            "Id": "cowboy_outlawsong",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_Cowboy_outlawsong.ogg}}"],
+			 "Looped": true 
+        },
+	 "cowboy_boss": {
+            "Id": "cowboy_boss",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_Cowboy_boss.ogg}}"],
+			 "Looped": true 
+        },
+	 "Cowboy_singing": {
+            "Id": "Cowboy_singing",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_Cowboy_singing.ogg}}"],
+			 "Looped": false 
+        },
+	 "shaneTheme": {
+            "Id": "shaneTheme",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_shaneTheme.ogg}}"],
+			 "Looped": true 
+        },
+	 "EmilyTheme": {
+            "Id": "EmilyTheme",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_EmilyTheme.ogg}}"],
+			 "Looped": true 
+        },
+	 "EmilyDream": {
+            "Id": "EmilyDream",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_EmilyDream.ogg}}"],
+			 "Looped": true 
+        },
+	 "night_market": {
+            "Id": "night_market",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_night_market.ogg}}"],
+			 "Looped": true 
+        },
+	 "submarine_song": {
+            "Id": "submarine_song",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_submarine_song.ogg}}"],
+			 "Looped": true 
+        },
+	 "SunRoom": {
+            "Id": "SunRoom",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_SunRoom.ogg}}"],
+			 "Looped": true 
+        },
+	 "harveys_theme_jazz": {
+            "Id": "harveys_theme_jazz",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_harveys_theme_jazz.ogg}}"],
+			 "Looped": true 
+        },
+	 "movieTheater": {
+            "Id": "movieTheater",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_movieTheater.ogg}}"],
+			 "Looped": true 
+        },
+	 "movieTheaterAfter": {
+            "Id": "movieTheaterAfter",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_movieTheaterAfter.ogg}}"],
+			 "Looped": true 
+        },
+	 "movie_wumbus": {
+            "Id": "wumbus",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_wumbus.ogg}}"],
+			 "Looped": true 
+        },
+	 "movie_nature": {
+            "Id": "nature",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_nature.ogg}}"],
+			 "Looped": true 
+        },
+	 "movie_classic": {
+            "Id": "classic",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_classic.ogg}}"],
+			 "Looped": true 
+        },
+	 "junimoKart": {
+            "Id": "junimoKart",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_junimoKart.ogg}}"],
+			 "Looped": true 
+        },
+	 "junimoKart_whaleMusic": {
+            "Id": "junimoKart_whaleMusic",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_junimoKart_whaleMusic.ogg}}"],
+			 "Looped": true 
+        },
+	 "junimoKart_slimeMusic": {
+            "Id": "junimoKart_slimeMusic",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_junimoKart_slimeMusic.ogg}}"],
+			 "Looped": true 
+        },
+	 "junimoKart_ghostMusic": {
+            "Id": "junimoKart_ghostMusic",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_junimoKart_ghostMusic.ogg}}"],
+			 "Looped": true 
+        },
+	 "junimoKart_mushroomMusic": {
+            "Id": "junimoKart_mushroomMusic",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_junimoKart_mushroomMusic.ogg}}"],
+			 "Looped": true 
+        },
+	 "fieldofficeTentMusic": {
+            "Id": "fieldofficeTentMusic",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_fieldofficeTentMusic.ogg}}"],
+			 "Looped": true 
+        },
+	 "VolcanoMines1": {
+            "Id": "VolcanoMines1",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_VolcanoMines1.ogg}}"],
+			 "Looped": true 
+        },
+	 "VolcanoMines2": {
+            "Id": "VolcanoMines2",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_VolcanoMines2.ogg}}"],
+			 "Looped": true 
+        },
+	 "caldera": {
+            "Id": "caldera",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_caldera.ogg}}"],
+			 "Looped": true 
+        },
+	 "FrogCave": {
+            "Id": "FrogCave",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_FrogCave.ogg}}"],
+			 "Looped": true 
+        },
+	 "PIRATE_THEME": {
+            "Id": "PIRATE_THEME",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_PIRATE_THEME.ogg}}"],
+			 "Looped": true 
+        },
+	 "sad_kid": {
+            "Id": "sad_kid",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_sad_kid.ogg}}"],
+			 "Looped": true 
+        },
+	 "end_credits": {
+            "Id": "end_credits",
+            "Category": "Music",
+            "FilePaths": ["{{AbsoluteFilePath: assets/M_end_credits.ogg}}"],
+			 "Looped": false 
+        }
+	}
+	},
+
+	//Seasonal Town Music built in!
+	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"springtown": {
+            	"Id": "springtown",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_springtown.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "spring"
+	}
+        },
+
+	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"springtown": {
+            	"Id": "springtown",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_summertown.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "summer"
+	}
+        },
+
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"springtown": {
+            	"Id": "springtown",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_falltown.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "fall"
+	}
+        },
+
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+        	"springtown": {
+            	"Id": "springtown",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_wintertown.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "winter"
+	}
+        },
+
+	//NEW GINGER ISLAND MUSIC (1st in Spring and Summer, 2nd in Fall and Winter)!
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+	 	"IslandMusic": {
+            	"Id": "IslandMusicSpSu",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_IslandMusicSpSu.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "spring, summer"
+	}
+        },
+
+    	{
+    	"Action": "EditData",
+    	"Target": "Data/AudioChanges",
+    	"Entries": {
+	 	"IslandMusic": {
+            	"Id": "IslandMusicFaWi",
+            	"Category": "Music",
+            	"FilePaths": ["{{AbsoluteFilePath: assets/M_IslandMusicFaWi.ogg}}"],
+			 "Looped": true 
+        }
+	},
+	"When": {
+		"Season": "fall, winter"
+	}
+        },
+]
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "[CP] StardewOfDark Music Pack",
+    "Author": "Nicholas Peck",
+    "Version": "1.3.0",
+    "Description": "Replace the soundtrack with music from legendary chiptune composer FearOfDark using Content Patcher. Check him out.",
+    "UniqueID": "stardewofdark.CustomMusic",
+    "UpdateKeys": ["Nexus:27292"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
